@@ -6,6 +6,7 @@ body{
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 350px;
+    max-height: 90vh;
     margin: auto;
     background-color: black;    
 }
@@ -16,7 +17,7 @@ h1{
     letter-spacing: 1.5px;
 }
 h2{
-    color: rgb(247, 97, 43);
+    color: rgb(247, 43, 43);
 }
 #start{
     background-color: olive;    
@@ -34,7 +35,7 @@ h2{
     font-weight: 700;
     color: black;
     padding: .3em .6em;
-    background-color: rgb(247, 97, 43);
+    background-color: rgb(247, 43, 43);
     border-radius: 50%;
 }
 #help-box{
@@ -45,13 +46,14 @@ h2{
     position: fixed;
     left: 20%;
     right: 20%;
+    margin: auto;
     max-width: 300px;
     padding: .2em;
     border: 2px solid rgb(247, 43, 43);
     display: none;
 }
 #help-box-ok-btn{
-    background-color: rgb(247, 97, 43);
+    background-color: rgb(247, 43, 43);
     border: none;
     font-size: .6rem;
     margin: .5em;

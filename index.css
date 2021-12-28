@@ -6,7 +6,7 @@ body{
     text-align: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 350px;
-    max-height: 90vh;
+    max-height: 100vh;
     margin: auto;
     background-color: black;    
 }

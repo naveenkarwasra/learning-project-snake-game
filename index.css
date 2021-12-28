@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{    
+    padding: 10px;
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    max-width: 350px;
+    margin: auto;
+    background-color: black;    
+}
+h1{
+    font-family: Akronim, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color:goldenrod;
+    letter-spacing: 1.5px;
+}
+h2{
+    color: rgb(247, 97, 43);
+}
+#start{
+    background-color: olive;    
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: black;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+#help{
+    text-decoration: none;
+    margin-left: 1em;
+    font-weight: 700;
+    color: black;
+    padding: .3em .6em;
+    background-color: rgb(247, 97, 43);
+    border-radius: 50%;
+}
+#help-box{
+    color: black;
+    background-color: white;
+    text-align: left;
+    font-size: .8rem;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    max-width: 300px;
+    padding: .2em;
+    border: 2px solid rgb(247, 43, 43);
+    display: none;
+}
+#help-box-ok-btn{
+    background-color: rgb(247, 97, 43);
+    border: none;
+    font-size: .6rem;
+    margin: .5em;
+    padding: .4em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#score{
+    color: goldenrod;    
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 310px;
+    height: 310px;
+    border: solid 5px rgba(194, 32, 32, 0.521);
+    background-image: url("table.png");
+    background-size: cover;
+    
+}
+.squeres{
+    width: 10px;
+    height: 10px;
+   
+}
+.snake{
+    background-color: rgb(17, 221, 17);
+    border: .5px solid;
+    width: 10px;
+    height: 10px;
+}
+.apple{
+    background-color: red;
+    border: .5px solid;
+    width: 10px;
+    height: 10px;
+}

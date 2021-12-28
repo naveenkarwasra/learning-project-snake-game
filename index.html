@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <button type="button" id="start">Start/Restart</button>
+    <a href="#" id="help">?</a>
+    <div id="help-box">        
+        <ol>
+        <li>
+            Move snake with up-down-left-right key
+        </li>
+        <li>
+            Try to grab red box to increase score and length of snake
+        </li>
+        <li>
+            Avoid collision with self and wall
+        </li>
+        </ol>
+        <input type="button" value="OK" id="help-box-ok-btn"/>
+        
+    </div>
+    <h2>Score: <span id="score">0</span></h2>
+    <div class="grid"><span></span></div>
+    <script src="index.js"></script>
+</body>
+</html>
